@@ -65,3 +65,5 @@ The data used in the Tableau visualizations includes:
  6. Transparency in sharing ideas openly.
  7. Supporting each other and clarifying if one of the team members has difficulties in understanding the project process.
  8. Continuous improvement in developing the model.
+
+  ### Link to Video:https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link   
