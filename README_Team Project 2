@@ -1,4 +1,41 @@
-Video Link_Jinrong Liu: https://vimeo.com/1000558863/d0e722b4f2?share=copy
+Mortgage Risk Assessment Project
+
+Project Overview
+Welcome to the Mortgage Risk Assessment Project! This project aims to analyze and predict mortgage loan amounts and assess loan conditions (Good Loan vs. Bad Loan) using various machine learning techniques. Our team has designed, implemented, and tested regression and classification models to gain insights into the factors affecting loan amounts and conditions.
+
+Team Members
+•	Doga Gizem (dogagzm)
+•	Krishna Kishore (krishnakishore163)
+•	Oleg Movchaniuk (movcha)
+•	Jinrong Liu (@liujinro)
+•	Kristina Talalaievska (@KristinaTalalaievska)
+
+Visualizations 
+
+App.ipynb
+1.	An interactive risk profile dashboard using Python with Dash by Plotly which provides interactive elements like filters and sliders. 
+2.	A correlation matrix heatmap is a powerful way to visualize the relationships between different variables and their influence on loan conditions
+
+Detailed Interpretation of risk profile dashboard -
+Income vs. Loan Amount:
+o	Observations: Look at how loan amounts vary with annual income. Higher incomes are associated with higher loan amounts
+o	Insights: Higher-income individuals tend to have good loan conditions even with large loan amounts, which suggest that higher income is a good predictor of loan quality.
+Loan Condition Distribution:
+o	Observations: Different colors represent loan conditions. By analyzing the distribution of colors in relation to income and loan amount, we can identify which income groups or loan amounts are associated with higher rates of bad loans.
+o	Insights: Most bad loans are clustered in certain income brackets or loan amounts which indicate risky segments that need closer monitoring.
+
+Filtering Effects
+Income Category Filter: Selecting specific income categories will update the scatter plot to show only loans from the chosen income brackets. This helps in analyzing how loan conditions change with different income levels.
+Home Ownership Filter: Applying this filter shows how loan conditions vary based on home ownership status. For example, Rented homes show a higher rate of bad loans, which point to the risk associated with rental properties.
+Loan Term Filter: Filtering by loan term will display how loan conditions differ across various loan durations. 
+
+Users can interact with dropdowns to explore different scenarios and combinations. This interactivity allows for dynamic exploration of data, revealing how various factors like income, home ownership, and loan term interact to impact loan conditions.
+
+Correlation Matrix Heatmap
+A correlation matrix shows the correlation coefficients between pairs of variables. The heatmap uses colors to represent correlation values. Darker colors often indicate stronger correlations.
+•	Interest_rate has a high negative correlation with loan_condition_encoded.
+•	dti or loan_amount are strongly correlated with bad loan conditions
+By visualizing the correlation matrix heatmap, we gain a clearer understanding of how different variables interact and their influence on loan conditions. This is essential for effective risk management and improving predictive models.
 
 
 Topic: How the loan conditions (Good Loan vs. Bad Loan) affect the total payment and loan amounts over time
@@ -23,3 +60,6 @@ Data:
 Summary:
  The visualization effectively meets the primary objective of showing trends in loan amounts and payments over time, segmented by loan condition. By carefully selecting colors, ensuring accuracy, and considering feedback, this visualization can be refined to communicate its message clearly to the target audience. Privacy considerations should also be kept in mind, especially if dealing with sensitive financial data.
  
+Video Links
+
+Video Link_Jinrong Liu: https://vimeo.com/1000558863/d0e722b4f2?share=copy
