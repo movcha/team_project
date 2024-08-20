@@ -1,0 +1,26 @@
+Video Link
+https://vimeo.com/1000558863/d0e722b4f2?share=copy
+
+
+Topic: How the loan conditions (Good Loan vs. Bad Loan) affect the total payment and loan amounts over time
+Objective: The primary goal is to visualize the relationship between the loan amount and total payment over the years, differentiated by loan conditions (Good Loan vs. Bad Loan). The aim is to track trends and observe how loan amounts and payments have evolved over time.
+Goal: To provide insights into the financial performance and risk associated with different loan conditions across years. This can help in understanding patterns in loan repayment behavior and the financial impact of good and bad loans.
+Analysis:
+ -By observing the bar heights and the trend line, we can analyze whether there's an increase in good or bad loans over the years. For instance, if the bar for Good Loans significantly outweighs Bad Loans in the later years, it could indicate an improvement in the lending criteria or economic conditions.
+ -By comparing the relative sizes of bars representing Good Loans vs. Bad Loans, one could assess the financial risk. If Bad Loans increase over time, this may indicate growing risk.
+Audience:
+ -Financial Analysts who need loan to perform decision-making; Stakeholders who need to see the loan trends based year to year.
+Visualization:
+ -Bar charts are well-suited for this type of data because they allow for easy comparison between different categories (Good vs. Bad Loans) over time. The trend line adds predictive value, helping to identify long-term trends in the data.
+Frameworks:
+ -Using Matplotlib is appropriate for this task as it provides flexibility and customization, which is essential when dealing with complex financial data.
+Design:
+ -Use color-coding and clear legends to make it easy for the audience to differentiate between Good and Bad Loans.
+ -The current choice—a bar chart with a trend line—is effective for comparing different categories over time. The bars allow for a clear comparison of total payments and loan amounts, while the trend line indicates general movement or predictions.
+ -Use clear, non-technical language in labels and legends to make the chart accessible to people with varying levels of financial knowledge.
+Data:
+ -The visualization should accurately reflect the underlying data without exaggerating trends or omitting important information. This can be done by carefully choosing the scales and ensuring that the trend line accurately reflects the data.
+ -Provide context in the title or through annotations to guide the audience in interpreting the data correctly. Consider adding notes or a legend to explain any assumptions or calculations.
+Summary:
+ The visualization effectively meets the primary objective of showing trends in loan amounts and payments over time, segmented by loan condition. By carefully selecting colors, ensuring accuracy, and considering feedback, this visualization can be refined to communicate its message clearly to the target audience. Privacy considerations should also be kept in mind, especially if dealing with sensitive financial data.
+ 
