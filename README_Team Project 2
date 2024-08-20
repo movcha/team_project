@@ -38,6 +38,9 @@ A correlation matrix shows the correlation coefficients between pairs of variabl
 By visualizing the correlation matrix heatmap, we gain a clearer understanding of how different variables interact and their influence on loan conditions. This is essential for effective risk management and improving predictive models.
 
 
+
+Project2_Jinrong.ipynb
+
 Topic: How the loan conditions (Good Loan vs. Bad Loan) affect the total payment and loan amounts over time
 Objective: The primary goal is to visualize the relationship between the loan amount and total payment over the years, differentiated by loan conditions (Good Loan vs. Bad Loan). The aim is to track trends and observe how loan amounts and payments have evolved over time.
 Goal: To provide insights into the financial performance and risk associated with different loan conditions across years. This can help in understanding patterns in loan repayment behavior and the financial impact of good and bad loans.
