@@ -120,6 +120,27 @@ The data used in the Tableau visualizations includes:
 - Loan Amounts: Summed regionally to identify areas with higher lending.
 - Regions: Categorized for geographical analysis, making it easy to compare economic performance across different areas.
 
+
+Graphy.py _ Doga Memis
+
+Analysis of Mortgage Loan Data
+The project centers around examining key factors related to mortgage loans, including loan amounts, interest rates, income, debt-to-income ratios, and loan conditions.
+
+Goal
+The main goal of this project is to identify and visualize relationships and trends in the mortgage loan dataset. Specific goals include:
+Understanding the Relationship Between Loan Amount and Interest Rate: Using scatter plots to observe how loan amounts impact interest rates.
+Analyzing Income Against Debt-to-Income Ratio: Exploring how annual income levels correlate with debt-to-income ratios using scatter plots.
+Evaluating Loan Grade Impact on Interest Rates: Utilizing box plots to see how different loan grades affect the interest rates offered to borrowers.
+Comparing Loan Conditions and Total Payments: Using bar plots to compare the average total payments based on different loan conditions.
+Distribution of Interest Rates: Creating histograms to visualize the distribution of interest rates within the dataset.
+
+Audience
+Financial Analysts, Mortgage Lenders, and Data Scientists
+The intended audience for this project likely includes financial analysts, mortgage lenders, and data scientists interested in understanding mortgage lending patterns. By visualizing key metrics and relationships, the project aims to provide insights that can help in decision-making, risk assessment, and improving lending strategies.
+
+This project is designed to offer valuable insights into the mortgage loan industry by exploring critical factors that influence lending decisions. The visualizations and analyses are tailored to help industry professionals better understand customer profiles and optimize loan offerings.
+By visualizing mortgage loan data, we transform complex datasets into understandable, actionable insights. These visualizations serve not only to validate assumptions and hypotheses but also to uncover new patterns and relationships, guiding strategic decisions in mortgage lending and financial analysis. The use of visualization thus plays a pivotal role in enhancing data interpretation, communication, and discovery in the context of mortgage loan analysis.
+
  Rules of Engagement:
  1. Transparent and clear communication within the team members.
  2. Collaboration and teamwork.
@@ -136,3 +157,4 @@ Video Links
 Video Link_Jinrong Liu: https://vimeo.com/1000558863/d0e722b4f2?share=copy
 Video Link_Krishna Kishore: https://vimeo.com/1000959222/4afd8dce93?share=copy
 Video Link_Kristina Talalaievska: https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link   
+Video Linkk_Doga Memis: https://drive.google.com/file/d/1fSrtiI2qsf8S9FBjv8rG0reGXyvNAIt-/view?usp=drive_link
