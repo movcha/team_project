@@ -133,7 +133,99 @@ Analyzing the impact of loan conditions (Good Loan vs. Bad Loan) on total paymen
 - [Kristina Talalaievska](https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link)
 - [Doga Memis](https://drive.google.com/file/d/1fSrtiI2qsf8S9FBjv8rG0reGXyvNAIt-/view?usp=drive_link)
 
+---
 
+<details>
+<summary>Team Project 1</summary>
+
+# Mortgage Risk Assessment Project (Team Project 1)
+
+## Project Overview
+
+Welcome to the Mortgage Risk Assessment Project! This project aims to analyze and predict mortgage loan amounts and assess loan conditions (Good Loan vs. Bad Loan) using various machine learning techniques. Our team has designed, implemented, and tested regression and classification models to gain insights into the factors affecting loan amounts and conditions.
+
+## Team Members
+
+- **Doga Gizem (dogagzm)**
+- **Krishna Kishore (krishnakishore163)**
+- **Oleg Movchaniuk (movcha)**
+- **Shiyam Hoda (shiyamhoda)**
+
+## Project Structure
+
+The project is divided into several parts:
+1. **Linear Regression Analysis**: Predicting loan amounts based on features such as annual income, employment length, interest rate, debt-to-income ratio, and grade category.
+2. **Logistic Regression Analysis**: Classifying loans as 'Good' or 'Bad' based on the same set of features.
+3. **Random Forest Classifier**: Improving loan condition classification using a Random Forest classifier.
+
+**Design:**
+- **Features:** `annual_inc`, `emp_length_int`, `interest_rate`, `dti`, `grade_cat`
+- **Target:** `loan_amount`
+
+**Findings:**
+Impact of Borrower Characteristics on Mortgage Risk
+Regression Analysis
+- **Linear Regression**: Identified key borrower characteristics such as annual income, employment length, interest rate, debt-to-income ratio, and credit grade significantly influencing loan amounts.
+- **Logistic Regression**: Highlighted significant predictors of loan condition, confirming the importance of borrower characteristics in determining mortgage risks.
+- **Random Forest Classifier**: Provided robust classification of loan conditions, reinforcing findings from regression analyses.
+
+**Conclusion:**
+This project provides comprehensive insights into how borrower characteristics influence mortgage risks. By analyzing diverse datasets and employing robust methodologies, the findings offer valuable guidance for policymakers, lenders, and borrowers, aiding in informed decision-making and risk management.
+
+**Next Steps:**
+Future work may include:
+
+- Incorporating additional economic indicators.
+- Enhancing model performance with advanced techniques.
+- Deploying models for real-time risk assessment.
+
+## Progress Report
+
+### 2024-06-17
+- Group chat in Slack was created before the Team Project pt.I day 1, thanks Shiyam
+- Established a constant point of contact
+- Initiated thinking about the project topic
+
+### 2024-06-18
+**On a Meeting:**
+- First team meeting getting to know each other
+- Shared background of team members
+- Decided on a project topic direction: mortgages and mortgage risk assessment
+- All team members agreed to look through the given datasets list for data connected with mortgages, loans, interest rates, house prices, and so on
+
+**Independent Work:**
+- Each team member explored the datasets list for relevant data
+
+### 2024-06-19
+- From the options proposed by each team member, one dataset was selected
+- Cleaned data by removing irrelevant column attributes and sampling data on certain dates to reduce the overall file size so that it can be uploaded to GitHub
+
+### 2024-06-20 - 2024-06-30
+- Main work on the project algorithm
+- Linear Regression Analysis
+- Logistic Regression Analysis
+- Random Forest Classifier
+
+### 2024-06-30
+- Finalizing the project
+- Creating a README file
+- Recording a video
+
+### 2024-07-07
+- Minor changes README file
+- Adding video links
+
+- Sources and references utilized for this project can be accessed in:
+  - [Data folder](./data/)
+  - [Source Code and Models](./src/)
+
+
+ ## Links to individual videos
+
+- [Doga Gizem (dogagzy)](https://drive.google.com/drive/folders/1FTX5VDLg291xYiZbtpJVIrgAJx0B96Xx)
+- [Oleg Movchaniuk (movcha)](https://drive.google.com/file/d/1DT6D9mUT1SC1jm6RPYv5Sqi7qwigCxfm)
+
+<details>
 
 ---
 
