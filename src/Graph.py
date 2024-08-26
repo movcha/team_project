@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-file_path = 'C:/Users/furka/team_project/data/mortgage.csv'
+file_path = 'data/mortgage.csv'
 data = pd.read_csv(file_path)
 
 # 1. Loan Amount vs Interest Rate (Scatter Plot)
