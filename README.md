@@ -1,168 +1,144 @@
-Mortgage Risk Assessment Project
+# Mortgage Risk Assessment Project
 
-Project Overview
-Welcome to the Mortgage Risk Assessment Project! This project aims to analyze and predict mortgage loan amounts and assess loan conditions (Good Loan vs. Bad Loan) using various machine learning techniques. Our team has designed, implemented, and tested regression and classification models to gain insights into the factors affecting loan amounts and conditions.
+## Project Overview
 
-Team Members
-•	Doga Gizem (dogagzm)
-•	Krishna Kishore (krishnakishore163)
-•	Oleg Movchaniuk (movcha)
-•	Jinrong Liu (@liujinro)
-•	Kristina Talalaievska (@KristinaTalalaievska)
+Welcome to the **Mortgage Risk Assessment Project**! Our project focuses on analyzing and predicting mortgage loan amounts and assessing loan conditions (Good Loan vs. Bad Loan) using various machine learning techniques. Our team has designed, implemented, and tested regression and classification models to gain insights into the factors affecting loan amounts and conditions.
 
-Visualizations 
+---
 
-App.ipynb
-1.	An interactive risk profile dashboard using Python with Dash by Plotly which provides interactive elements like filters and sliders. 
-2.	A correlation matrix heatmap is a powerful way to visualize the relationships between different variables and their influence on loan conditions
+## Team Members
 
-Detailed Interpretation of risk profile dashboard -
-Income vs. Loan Amount:
-o	Observations: Look at how loan amounts vary with annual income. Higher incomes are associated with higher loan amounts
-o	Insights: Higher-income individuals tend to have good loan conditions even with large loan amounts, which suggest that higher income is a good predictor of loan quality.
-Loan Condition Distribution:
-o	Observations: Different colors represent loan conditions. By analyzing the distribution of colors in relation to income and loan amount, we can identify which income groups or loan amounts are associated with higher rates of bad loans.
-o	Insights: Most bad loans are clustered in certain income brackets or loan amounts which indicate risky segments that need closer monitoring.
+- **Doga Gizem** ([dogagzm](https://github.com/dogagzm))
+- **Krishna Kishore** ([krishnakishore163](https://github.com/krishnakishore163))
+- **Oleg Movchaniuk** ([movcha](https://github.com/movcha))
+- **Jinrong Liu** ([liujinro](https://github.com/liujinro))
+- **Kristina Talalaievska** ([KristinaTalalaievska](https://github.com/KristinaTalalaievska))
 
-Filtering Effects
-Income Category Filter: Selecting specific income categories will update the scatter plot to show only loans from the chosen income brackets. This helps in analyzing how loan conditions change with different income levels.
-Home Ownership Filter: Applying this filter shows how loan conditions vary based on home ownership status. For example, Rented homes show a higher rate of bad loans, which point to the risk associated with rental properties.
-Loan Term Filter: Filtering by loan term will display how loan conditions differ across various loan durations. 
+---
 
-Users can interact with dropdowns to explore different scenarios and combinations. This interactivity allows for dynamic exploration of data, revealing how various factors like income, home ownership, and loan term interact to impact loan conditions.
+## Visualizations
 
-Correlation Matrix Heatmap
-A correlation matrix shows the correlation coefficients between pairs of variables. The heatmap uses colors to represent correlation values. Darker colors often indicate stronger correlations.
-•	Interest_rate has a high negative correlation with loan_condition_encoded.
-•	dti or loan_amount are strongly correlated with bad loan conditions
-By visualizing the correlation matrix heatmap, we gain a clearer understanding of how different variables interact and their influence on loan conditions. This is essential for effective risk management and improving predictive models.
+### **App.ipynb**
 
+1. **Interactive Risk Profile Dashboard**  
+   Developed using Python with Dash by Plotly, this dashboard offers interactive elements like filters and sliders to help users explore various aspects of loan conditions.
 
+2. **Correlation Matrix Heatmap**  
+   A powerful visualization tool to show relationships between different variables and their influence on loan conditions.
 
-Project2_Jinrong.ipynb
+#### **Detailed Interpretation of Risk Profile Dashboard**
 
-Topic: How the loan conditions (Good Loan vs. Bad Loan) affect the total payment and loan amounts over time
-Objective: The primary goal is to visualize the relationship between the loan amount and total payment over the years, differentiated by loan conditions (Good Loan vs. Bad Loan). The aim is to track trends and observe how loan amounts and payments have evolved over time.
-Goal: To provide insights into the financial performance and risk associated with different loan conditions across years. This can help in understanding patterns in loan repayment behavior and the financial impact of good and bad loans.
-Analysis:
- -By observing the bar heights and the trend line, we can analyze whether there's an increase in good or bad loans over the years. For instance, if the bar for Good Loans significantly outweighs Bad Loans in the later years, it could indicate an improvement in the lending criteria or economic conditions.
- -By comparing the relative sizes of bars representing Good Loans vs. Bad Loans, one could assess the financial risk. If Bad Loans increase over time, this may indicate growing risk.
-Audience:
- -Financial Analysts who need loan to perform decision-making; Stakeholders who need to see the loan trends based year to year.
-Visualization:
- -Bar charts are well-suited for this type of data because they allow for easy comparison between different categories (Good vs. Bad Loans) over time. The trend line adds predictive value, helping to identify long-term trends in the data.
-Frameworks:
- -Using Matplotlib is appropriate for this task as it provides flexibility and customization, which is essential when dealing with complex financial data.
-Design:
- -Use color-coding and clear legends to make it easy for the audience to differentiate between Good and Bad Loans.
- -The current choice—a bar chart with a trend line—is effective for comparing different categories over time. The bars allow for a clear comparison of total payments and loan amounts, while the trend line indicates general movement or predictions.
- -Use clear, non-technical language in labels and legends to make the chart accessible to people with varying levels of financial knowledge.
-Data:
- -The visualization should accurately reflect the underlying data without exaggerating trends or omitting important information. This can be done by carefully choosing the scales and ensuring that the trend line accurately reflects the data.
- -Provide context in the title or through annotations to guide the audience in interpreting the data correctly. Consider adding notes or a legend to explain any assumptions or calculations.
-Summary:
- The visualization effectively meets the primary objective of showing trends in loan amounts and payments over time, segmented by loan condition. By carefully selecting colors, ensuring accuracy, and considering feedback, this visualization can be refined to communicate its message clearly to the target audience. Privacy considerations should also be kept in mind, especially if dealing with sensitive financial data.
+- **Income vs. Loan Amount**  
+  - **Observations:** Loan amounts vary with annual income; higher incomes are often associated with larger loan amounts.
+  - **Insights:** Higher-income individuals tend to have good loan conditions even with large loan amounts, suggesting that income is a strong predictor of loan quality.
 
-Final Team Project_Kristina Talalaievska 
+- **Loan Condition Distribution**  
+  - **Observations:** Visualized through different colors representing loan conditions, allowing for the analysis of which income groups or loan amounts have higher rates of bad loans.
+  - **Insights:** Bad loans are concentrated in certain income brackets or loan amounts, indicating risky segments that require closer monitoring.
 
-- Visualization #1 in Tableu:
-Growing confidence in the lending market during decade from 2006 -2016
-https://public.tableau.com/views/Mortgagemarketinvestigation/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link  
+- **Filtering Effects**  
+  - **Income Category Filter:** Filters by income brackets to analyze how loan conditions change across different income levels.
+  - **Home Ownership Filter:** Displays loan conditions based on home ownership status, such as a higher rate of bad loans in rented homes.
+  - **Loan Term Filter:** Demonstrates variations in loan conditions across different loan durations.
 
-- Topic:  
- Growing Confidence in the Lending Market: Analysis of Trends from 2006 to 2016 Using Tableau
+#### **Correlation Matrix Heatmap Analysis**
 
-- Objective:  
- To utilize Tableau for a detailed exploration of the lending market trends between 2006 and 2016, focusing on how visual data representation can reveal insights into the increasing confidence within the market.
-
-- Goal:  
-To provide a visual and data-driven understanding of the lending market’s evolution over the decade, identifying key factors that contributed to the growth in lender and borrower confidence, and to create an interactive dashboard for stakeholders to explore these trends dynamically.
-Analysis:   
- - Yearly Trends: the sum of loan amounts from 2006 to 2016, highlighting growth or decline over the years.
- - Regional Performance:  comparing loan amounts across different regions to identify areas of high and low activity.
- - Interest Rate Correlations:  visualizing  the relationship between interest rates and loan volumes, offering insights into how rates influenced lending activity.
- - Hotspot Identification: showing regional loan amounts over the years to identify lending hotspots and areas with lower activity.
- 
-- Audience:  
-The primary audience includes financial analysts, bank executives, policy makers, and investors interested in understanding the dynamics of the lending market. The interactive nature of the Tableau visualizations also makes it accessible to business stakeholders who benefit from exploring data in a visual format.
-- Design:  
-It is  designed for clarity and ease of use, with consistent color schemes and clear labeling. Each visualization is interactive, allowing users to drill down into specific years, regions, or other relevant data points. The design ensures that complex data is presented in an accessible and engaging manner.
-- Data:  
-- Loan Amounts: Summed annually and regionally.
-- Years: Spanning from 2006 to 2016, used to track trends over time.
-
-- Methodologies used:
- 1. KNN targets  to classify data points based on their proximity to other points in the dataset.
- 2. Logistic Regression aiming  to predicts the probability of asthma occurrence by modeling the relationship between the dependent variable (diagnosis)  and various independent variables (age, gender, ethnicity and education level).
-
-- Visualization #2 in Tableu:
-Identifying regions higher on loan amounts and showing more economic growth 
-https://public.tableau.com/app/profile/kristina.talalaievska/viz/Identifyingregionshigheronloanamountsandshowingmoreeconomicgrowth/Sheet2
-
-- Topic:  
-Identifying Regions with Higher Loan Amounts and Correlating Economic Growth
-
-- Objective:  
-To analyze and visualize the relationship between higher loan amounts in specific regions and their correlation with economic growth, using Tableau as the primary tool for data-driven insights.
-
-- Goal:  
-To provide a clear understanding of which regions have received the highest loan amounts and how this correlates with indicators of economic growth, offering valuable insights for stakeholders in finance, policy-making, and regional development.
-Analysis:  
- - Regional Loan Distribution: Identifying which regions have higher loan amounts.
-- Economic Growth Correlation: Analyzing how these loan amounts correlate with economic growth indicators such as GDP, employment rates, or other relevant economic metrics.
-- Comparison Across Regions: Comparing economic performance across regions with varying loan amounts to assess the impact of lending on economic development.
- - Audience:  
-The primary audience includes economic analysts, regional planners, financial institutions, and government officials interested in understanding the impact of lending on regional economic growth. Investors and businesses looking to make informed decisions about regional markets may also benefit from these insights.
-- Design:  
-The Tableau dashboard is designed to be intuitive and visually engaging, with interactive elements that allow users to filter data by region or economic indicator. Consistent color schemes and clear labeling help ensure that the data is easily interpretable.
-- Data:  
-The data used in the Tableau visualizations includes:
-- Loan Amounts: Summed regionally to identify areas with higher lending.
-- Regions: Categorized for geographical analysis, making it easy to compare economic performance across different areas.
-
-
-Graphy.py _ Doga Memis
-
-Analysis of Mortgage Loan Data
-The project centers around examining key factors related to mortgage loans, including loan amounts, interest rates, income, debt-to-income ratios, and loan conditions.
-
-Goal
-The main goal of this project is to identify and visualize relationships and trends in the mortgage loan dataset. Specific goals include:
-Understanding the Relationship Between Loan Amount and Interest Rate: Using scatter plots to observe how loan amounts impact interest rates.
-Analyzing Income Against Debt-to-Income Ratio: Exploring how annual income levels correlate with debt-to-income ratios using scatter plots.
-Evaluating Loan Grade Impact on Interest Rates: Utilizing box plots to see how different loan grades affect the interest rates offered to borrowers.
-Comparing Loan Conditions and Total Payments: Using bar plots to compare the average total payments based on different loan conditions.
-Distribution of Interest Rates: Creating histograms to visualize the distribution of interest rates within the dataset.
-
-Audience
-Financial Analysts, Mortgage Lenders, and Data Scientists
-The intended audience for this project likely includes financial analysts, mortgage lenders, and data scientists interested in understanding mortgage lending patterns. By visualizing key metrics and relationships, the project aims to provide insights that can help in decision-making, risk assessment, and improving lending strategies.
-
-This project is designed to offer valuable insights into the mortgage loan industry by exploring critical factors that influence lending decisions. The visualizations and analyses are tailored to help industry professionals better understand customer profiles and optimize loan offerings.
-By visualizing mortgage loan data, we transform complex datasets into understandable, actionable insights. These visualizations serve not only to validate assumptions and hypotheses but also to uncover new patterns and relationships, guiding strategic decisions in mortgage lending and financial analysis. The use of visualization thus plays a pivotal role in enhancing data interpretation, communication, and discovery in the context of mortgage loan analysis.
-
- Rules of Engagement:
- 1. Transparent and clear communication within the team members.
- 2. Collaboration and teamwork.
- 3. Respect and professionalism in sharing different viewpoints and constructive feedbacks.
- 4. Identifying strong expertise of each team member to effectively contribute to the project.
- 5. Conducting team meetings and summarizing the key points for discussion on the common shared Google Doc.
- 6. Transparency in sharing ideas openly.
- 7. Supporting each other and clarifying if one of the team members has difficulties in understanding the project process.
- 8. Continuous improvement in developing the model.
-
+- **Key Observations:**
+  - **Interest Rate:** High negative correlation with loan_condition_encoded.
+  - **DTI (Debt-to-Income Ratio) or Loan Amount:** Strongly correlated with bad loan conditions.
   
-Video Links
+By visualizing the correlation matrix heatmap, we gain a clearer understanding of how different variables interact and their influence on loan conditions—essential for effective risk management and improving predictive models.
 
-Video Link_Jinrong Liu: https://vimeo.com/1000558863/d0e722b4f2?share=copy
-Video Link_Krishna Kishore: https://vimeo.com/1000959222/4afd8dce93?share=copy
-Video Link_Kristina Talalaievska: https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link   
-Video Linkk_Doga Memis: https://drive.google.com/file/d/1fSrtiI2qsf8S9FBjv8rG0reGXyvNAIt-/view?usp=drive_link
+---
+
+### **Project2_Jinrong.ipynb**
+
+#### **Topic:**  
+Analyzing the impact of loan conditions (Good Loan vs. Bad Loan) on total payment and loan amounts over time.
+
+- **Objective:** To visualize the relationship between the loan amount and total payment over the years, differentiated by loan conditions. The goal is to track trends and observe how loan amounts and payments have evolved over time.
+- **Insights:** By analyzing bar heights and trend lines, we can determine whether there's an increase in good or bad loans over the years, indicating changes in lending criteria or economic conditions.
+
+#### **Audience:**
+
+- Financial Analysts and Stakeholders who need to see the loan trends year by year.
+
+#### **Visualization:**
+
+- **Bar Charts with Trend Lines:** Effective for comparing different categories (Good vs. Bad Loans) over time and identifying long-term trends.
+
+#### **Frameworks:**
+
+- **Matplotlib:** Used for flexibility and customization, essential for handling complex financial data.
+
+---
+
+### **Final Team Project - Kristina Talalaievska**
+
+- **Visualization #1 in Tableau:**  
+  Analyzing trends from 2006 to 2016 to show growing confidence in the lending market.  
+  [View Visualization](https://public.tableau.com/views/Mortgagemarketinvestigation/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+- **Objective:**  
+  To provide a data-driven understanding of the lending market’s evolution, focusing on factors that contributed to increased confidence among lenders and borrowers.
+
+#### **Design:**
+
+- **Interactive Dashboard:** Allows users to drill down into specific years, regions, or data points, presenting complex data in an accessible format.
+
+- **Visualization #2 in Tableau:**  
+  Identifying regions with higher loan amounts and correlating them with economic growth.  
+  [View Visualization](https://public.tableau.com/app/profile/kristina.talalaievska/viz/Identifyingregionshigheronloanamountsandshowingmoreeconomicgrowth/Sheet2)
+
+#### **Analysis:**
+
+- **Regional Loan Distribution and Economic Growth Correlation:**  
+  Analyzes how loan amounts correlate with economic growth indicators like GDP and employment rates.
+
+---
+
+### **Graphy.py - Doga Memis**
+
+**Analysis of Mortgage Loan Data**
+
+- **Objective:** To examine key factors related to mortgage loans, such as loan amounts, interest rates, income, debt-to-income ratios, and loan conditions.
+
+- **Visualizations:**
+  - **Scatter Plots:** To observe relationships like loan amount vs. interest rate.
+  - **Box Plots and Bar Plots:** To compare metrics like total payments by loan condition and the impact of loan grade on interest rates.
+
+#### **Audience:**
+
+- Financial Analysts, Mortgage Lenders, and Data Scientists.
+
+---
+
+## Rules of Engagement
+
+1. Transparent and clear communication among team members.
+2. Collaboration and teamwork.
+3. Respect and professionalism in sharing different viewpoints.
+4. Leveraging each team member's expertise for effective project contributions.
+5. Conducting regular team meetings and summarizing key discussion points.
+6. Open idea-sharing.
+7. Providing support for team members facing difficulties.
+8. Commitment to continuous improvement.
+
+---
+
+## Video Links
+
+- [Jinrong Liu](https://vimeo.com/1000558863/d0e722b4f2?share=copy)
+- [Krishna Kishore](https://vimeo.com/1000959222/4afd8dce93?share=copy)
+- [Kristina Talalaievska](https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link)
+- [Doga Memis](https://drive.google.com/file/d/1fSrtiI2qsf8S9FBjv8rG0reGXyvNAIt-/view?usp=drive_link)
 
 
 
+---
 
-# Team Project
+<details>
+<summary>Original Team Project Requirements</summary>
 
 ## Description
 The team project consists of two modules. Each module requires participants to apply the skills they have learned to date, and explore a dataset of their choosing. The first part of the team project involves creating a simple program with a database in order to analyze a dataset from an open source, such as Kaggle. In the second part of the team project, teams will come together again and apply the skills developed in each of the data science or machine learning foundations certificate streams. Teams will either create a data visualization or a machine learning model.
@@ -257,3 +233,6 @@ Work periods will also be used as opportunities for teams to collaborate and wor
 * README: This file!
 * .gitignore: Files to exclude from this folder, specified by the Technical Facilitator
 
+</details>
+
+---
