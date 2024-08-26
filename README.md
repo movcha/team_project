@@ -226,7 +226,7 @@ Future work may include:
 - [Oleg Movchaniuk (movcha)](https://drive.google.com/file/d/1DT6D9mUT1SC1jm6RPYv5Sqi7qwigCxfm)
 
 <details>
-
+<br>
 ---
 
 <details>
