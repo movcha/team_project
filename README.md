@@ -75,6 +75,8 @@ Analyzing the impact of loan conditions (Good Loan vs. Bad Loan) on total paymen
 
 ### **Final Team Project - Kristina Talalaievska**
 
+![image](https://github.com/user-attachments/assets/f9686cc1-87ec-4446-a7e2-bb229340a6b5)
+
 - **Visualization #1 in Tableau:**  
   Analyzing trends from 2006 to 2016 to show growing confidence in the lending market.  
   [View Visualization](https://public.tableau.com/views/Mortgagemarketinvestigation/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -86,7 +88,10 @@ Analyzing the impact of loan conditions (Good Loan vs. Bad Loan) on total paymen
 
 - **Interactive Dashboard:** Allows users to drill down into specific years, regions, or data points, presenting complex data in an accessible format.
 
+![image](https://github.com/user-attachments/assets/2efacdf4-8791-4d5f-aca1-9acd6dface09)
+
 - **Visualization #2 in Tableau:**  
+
   Identifying regions with higher loan amounts and correlating them with economic growth.  
   [View Visualization](https://public.tableau.com/app/profile/kristina.talalaievska/viz/Identifyingregionshigheronloanamountsandshowingmoreeconomicgrowth/Sheet2)
 
