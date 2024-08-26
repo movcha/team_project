@@ -75,7 +75,7 @@ Analyzing the impact of loan conditions (Good Loan vs. Bad Loan) on total paymen
 
 ### **Final Team Project - Kristina Talalaievska**
 
-![image](https://github.com/user-attachments/assets/f9686cc1-87ec-4446-a7e2-bb229340a6b5)
+<img src="https://github.com/user-attachments/assets/f9686cc1-87ec-4446-a7e2-bb229340a6b5" alt="Image" height="300">
 
 - **Visualization #1 in Tableau:**  
   Analyzing trends from 2006 to 2016 to show growing confidence in the lending market.  
