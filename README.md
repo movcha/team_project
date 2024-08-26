@@ -225,8 +225,8 @@ Future work may include:
 - [Doga Gizem (dogagzy)](https://drive.google.com/drive/folders/1FTX5VDLg291xYiZbtpJVIrgAJx0B96Xx)
 - [Oleg Movchaniuk (movcha)](https://drive.google.com/file/d/1DT6D9mUT1SC1jm6RPYv5Sqi7qwigCxfm)
 
-<details>
-<br>
+</details>
+
 ---
 
 <details>
