@@ -198,7 +198,7 @@ This visualization effectively communicates the relationship between loan grade,
 - [Jinrong Liu](https://vimeo.com/1000558863/d0e722b4f2?share=copy)
 - [Krishna Kishore](https://vimeo.com/1000959222/4afd8dce93?share=copy)
 - [Kristina Talalaievska](https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link)
-- [Oleg Movchaniuk](https://drive.google.com/file/d/1hgNK0Y32LRxVpXNiHaegi-lkWQNTQ1SH/view?usp=share_link)
+- [Oleg Movchaniuk](https://drive.google.com/file/d/1QZCuAXnPBWdo4xOdTqFBI4Euz-cY5YA1)
 
 ## Sources and references utilized for this project 
   - [Data folder](./data/)
