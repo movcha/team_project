@@ -88,7 +88,7 @@ Analyzing the impact of loan conditions (Good Loan vs. Bad Loan) on total paymen
 
 - **Interactive Dashboard:** Allows users to drill down into specific years, regions, or data points, presenting complex data in an accessible format.
 
-![image](https://github.com/user-attachments/assets/2efacdf4-8791-4d5f-aca1-9acd6dface09)
+<img src="https://github.com/user-attachments/assets/2efacdf4-8791-4d5f-aca1-9acd6dface09" alt="Image" height="300">
 
 - **Visualization #2 in Tableau:**  
 
